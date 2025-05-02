@@ -11,11 +11,12 @@ onnx 1.16.2 <br/>
 torch 2.4.1 
 
 ### Main Files
-_verify_deep_q_learning_with_replay_with_reward_shaping.py_ - standard DQN with replay buffer and reward shaping. <br/><br/>
-_verify_double_deep_v1.py_ - the original Double Deep Q-Learning Algorithm. <br/><br/>
-_verify_double_deep_v2.py_ - the revised Double Deep Q-learning Algorithm. <br/><br/>
-_check_verification_group_1_in_model.py, check_verification_group_2_in_model.py_ - responsible for verifying properties in the model. <br/><br/>
-_Frozen_Lake_Environment.py_ - implementation of the environment.<br/><br/>
+_verify_deep_q_learning_with_replay_with_reward_shaping.py_ - Simple DQN with a single network, replay buffer and reward shaping. <br/><br/>
+_verify_double_deep_v1.py_ - Deep Q-learning with an added target network for
+stabilization. <br/><br/>
+_verify_double_deep_v2.py_ - Revised Double Deep Q-learning designed to mitigate overestimation bias.
+_check_verification_group_1_in_model.py, check_verification_group_2_in_model.py_ - Responsible for verifying properties in the model. <br/><br/>
+_Frozen_Lake_Environment.py_ - Implementation of the environment.<br/><br/>
 _main.py_ - main file.
 The method _train_ at the algorithms' files takes as input the maximum number of episodes as well as whether to use the developed verification-based algorithm. 
 ### Running the code
