@@ -27,5 +27,6 @@ To compare the preformance of the developed verification-based backpropagation a
 ### Results
 ![image](https://github.com/user-attachments/assets/c70563c8-bb2a-48c5-a80f-1c246ddb806d) <br/>
 Three trials were conducted for each combination of algorithm and layout, depicted above, to account for the randomness inherent in the algorithms (the networks' parameters, epsilon greeedy strategy, replay memory sampling, etc.). The averages of these trials are detailed below: <br/>
-![image](https://github.com/user-attachments/assets/0a946584-23c2-4f01-9702-2352c09e8a61) <br/>
+![image](https://github.com/user-attachments/assets/436fd8f9-4f98-4c4f-bf83-ba9cac949a65)
+ <br/>
 It is recommended to run several trials, to account for the randomness inherent in the algorithms. 
